@@ -20,7 +20,7 @@ st.title("Bankruptcy Prevention")
 @st.cache_resource
 def load_files():
     lr_model = pickle.load(
-    open("lr.pkl", "rb"))
+    open("models/lr.pkl", "rb"))
     return lr_model
 
     
